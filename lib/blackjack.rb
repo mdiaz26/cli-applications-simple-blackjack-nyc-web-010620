@@ -64,7 +64,7 @@ def runner
   card_total = initial_round
   hit?(card_total)
   if hit?(card_total) > 21
-    end_game(hit?(card_total))
+    end_game(30)
   binding.pry
   else
     hit?(card_total)
